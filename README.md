@@ -41,6 +41,20 @@ The game combines **smooth gameplay mechanics**, a **dark-themed UI**, and **dat
   - Unlocked skins and shop data  
 
 ---
+## � How to Run
+
+1. **Prerequisites**: Ensure you have Java Development Kit (JDK) 8 or higher installed.
+2. **Compile**:
+   ```sh
+   javac -cp ".;sqlite-jdbc-3.50.3.0.jar" *.java
+   ```
+3. **Run**:
+   ```sh
+   java -cp ".;sqlite-jdbc-3.50.3.0.jar" GameMain
+   ```
+   > **Note**: On Linux/Mac, replace `;` with `:` in the classpath separator.
+
+---
 
 ## 🛠️ Technologies Used
 
